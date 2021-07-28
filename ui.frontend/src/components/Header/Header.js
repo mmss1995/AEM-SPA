@@ -1,5 +1,6 @@
 //Header.js
 import React, {Component} from 'react';
+require('./Header.css');
 
 export default class Header extends Component {
 
