@@ -32,9 +32,9 @@
         <module>ui.apps.structure</module>
         <module>ui.config</module>
         <module>ui.content</module>
-        <module>it.tests</module>
+        <!-- <module>it.tests</module> -->
         <module>dispatcher</module>
-        <module>ui.tests</module>
+        <!-- <module>ui.tests</module> -->
     </modules>
 
     <properties>
@@ -652,7 +652,7 @@ Bundle-DocURL:
             <!-- Adobe AEM Dependencies -->
             <dependency>
                 <groupId>com.adobe.aem</groupId>
-                <artifactId>uber-jar</artifactId>
+                <artifactId>uber-jar</artifactId> 
                 <version>6.5.7</version>
                 <scope>provided</scope>
             </dependency>
@@ -754,12 +754,12 @@ Bundle-DocURL:
                 <version>1.4</version>
                 <scope>test</scope>
             </dependency>
-            <dependency>
+            <!-- <dependency>
                 <groupId>io.wcm</groupId>
                 <artifactId>io.wcm.testing.aem-mock.junit5</artifactId>
                 <version>3.0.2</version>
                 <scope>test</scope>
-            </dependency>
+            </dependency> -->
             <dependency>
                 <groupId>uk.org.lidalia</groupId>
                 <artifactId>slf4j-test</artifactId>
